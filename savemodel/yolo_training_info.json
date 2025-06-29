@@ -1,0 +1,74 @@
+{
+  "model_type": "YOLOv8",
+  "classes": {
+    "0": "alert",
+    "1": "drowsy"
+  },
+  "train_args": {
+    "data": "yolo_dataset\\data.yaml",
+    "epochs": 100,
+    "imgsz": 640,
+    "batch": 4,
+    "name": "drowsiness_detection",
+    "project": "savemodel",
+    "save": true,
+    "device": "cuda",
+    "workers": 4,
+    "optimizer": "AdamW",
+    "verbose": true,
+    "seed": 42,
+    "patience": 15,
+    "weight_decay": 0.001,
+    "dropout": 0.2,
+    "label_smoothing": 0.1,
+    "hsv_h": 0.02,
+    "hsv_s": 0.8,
+    "hsv_v": 0.5,
+    "translate": 0.15,
+    "scale": 0.6,
+    "shear": 0.1,
+    "perspective": 0.0005,
+    "fliplr": 0.5,
+    "flipud": 0.1,
+    "mosaic": 0.8,
+    "mixup": 0.15,
+    "copy_paste": 0.1,
+    "erasing": 0.5,
+    "lr0": 0.008,
+    "lrf": 0.005,
+    "warmup_epochs": 5,
+    "cos_lr": true,
+    "val": true,
+    "save_period": 5,
+    "plots": true,
+    "amp": true,
+    "fraction": 1.0
+  },
+  "training_date": "2025-06-25 19:11:37",
+  "dataset_path": "dataset_buonngu",
+  "model_save_path": "savemodel",
+  "anti_overfitting_measures": {
+    "early_stopping_patience": 15,
+    "weight_decay": 0.001,
+    "dropout": 0.2,
+    "label_smoothing": 0.1,
+    "data_augmentation": {
+      "mosaic": 0.8,
+      "mixup": 0.15,
+      "copy_paste": 0.1
+    }
+  },
+  "memory_management": {
+    "memory_warnings": 0,
+    "final_memory_usage": {
+      "ram_percent": 0.7759999999999999,
+      "ram_used": 18.33354949951172,
+      "ram_total": 23.629817962646484,
+      "vram_percent": 0.025095426764131363,
+      "vram_used": 0.10036945343017578,
+      "vram_total": 3.99951171875
+    }
+  },
+  "best_fitness": null,
+  "results_path": "savemodel\\drowsiness_detection"
+}

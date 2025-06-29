@@ -1,0 +1,12 @@
+tensorflow
+numpy
+h5py
+protobuf
+mediapipe
+gtts
+scikit-learn
+open-python
+ultralytics
+playsound
+pydub
+seaborn

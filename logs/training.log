@@ -1,0 +1,1266 @@
+2025-06-25 12:53:07,856 - INFO - ✅ Đã tạo tất cả thư mục cần thiết
+2025-06-25 12:53:07,860 - INFO - 💾 RAM khả dụng: 10.1GB
+2025-06-25 12:53:07,861 - INFO - 💽 Dung lượng đĩa: 12.4GB
+2025-06-25 12:56:26,373 - INFO - ✅ Đã tạo tất cả thư mục cần thiết
+2025-06-25 12:56:26,378 - INFO - 💾 RAM khả dụng: 10.5GB
+2025-06-25 12:56:26,378 - INFO - 💽 Dung lượng đĩa: 12.4GB
+2025-06-25 12:58:55,613 - INFO - ✅ Đã dự đoán ảnh: D:\dienthoai\models\data\no_phone\no_phone_20250625_120424_496_002863.jpg
+2025-06-25 12:58:55,613 - INFO - 📱 Không phát hiện object nào
+2025-06-25 12:59:29,382 - INFO - ✅ Đã dự đoán ảnh: D:\dienthoai\models\data\using_phone\using_phone_20250625_120207_757_003088.jpg
+2025-06-25 12:59:29,382 - INFO - 📱 Phát hiện 1 objects:
+2025-06-25 12:59:29,383 - INFO -   • Object 1: using_phone (confidence: 0.932)
+2025-06-25 12:59:57,703 - INFO - ✅ Đã dự đoán ảnh: D:\dienthoai\models\data\using_phone\using_phone_20250625_120127_299_003012.jpg
+2025-06-25 12:59:57,703 - INFO - 📱 Phát hiện 1 objects:
+2025-06-25 12:59:57,704 - INFO -   • Object 1: no_phone (confidence: 0.930)
+2025-06-25 13:00:28,442 - INFO - ✅ Đã dự đoán ảnh: D:\dienthoai\models\data\no_phone\no_phone_20250625_120410_702_002837.jpg
+2025-06-25 13:00:28,442 - INFO - 📱 Phát hiện 1 objects:
+2025-06-25 13:00:28,442 - INFO -   • Object 1: no_phone (confidence: 0.922)
+2025-06-25 13:01:21,269 - INFO - ✅ Đã dự đoán ảnh: D:\dienthoai\models\data\using_phone\using_phone_20250625_120039_029_002922.jpg
+2025-06-25 13:01:21,269 - INFO - 📱 Không phát hiện object nào
+2025-06-25 13:01:36,155 - INFO - ✅ Đã dự đoán ảnh: D:\dienthoai\models\data\using_phone\using_phone_20250625_120034_271_002913.jpg
+2025-06-25 13:01:36,155 - INFO - 📱 Phát hiện 1 objects:
+2025-06-25 13:01:36,155 - INFO -   • Object 1: using_phone (confidence: 0.959)
+2025-06-25 13:04:23,095 - INFO - ✅ Đã tạo tất cả thư mục cần thiết
+2025-06-25 13:04:23,099 - INFO - 💾 RAM khả dụng: 11.1GB
+2025-06-25 13:04:23,099 - INFO - 💽 Dung lượng đĩa: 12.3GB
+2025-06-25 13:04:58,742 - INFO - ==================================================
+2025-06-25 13:04:58,742 - INFO - 🔍 Đang kiểm tra cấu trúc Dataset
+2025-06-25 13:04:58,742 - INFO - ==================================================
+2025-06-25 13:04:58,877 - INFO - ✅ train/images: 4537 files
+2025-06-25 13:04:58,968 - INFO - ✅ train/labels: 4767 files
+2025-06-25 13:04:59,006 - INFO - ✅ val/images: 1193 files
+2025-06-25 13:04:59,030 - INFO - ✅ val/labels: 1193 files
+2025-06-25 13:04:59,030 - INFO - 
+📊 Kiểm tra tính nhất quán dữ liệu:
+2025-06-25 13:04:59,030 - INFO - Train - Images: 4537, Labels: 4767 ❌
+2025-06-25 13:04:59,031 - INFO - Val - Images: 1193, Labels: 1193 ✅
+2025-06-25 13:04:59,074 - ERROR - ❌ Phát hiện lỗi trong dataset:
+2025-06-25 13:04:59,075 - ERROR -    • Số lượng ảnh và label training không khớp: 4537 vs 4767
+2025-06-25 13:07:18,290 - INFO - ✅ Đã tạo tất cả thư mục cần thiết
+2025-06-25 13:07:18,349 - INFO - 💾 RAM khả dụng: 9.8GB
+2025-06-25 13:07:18,349 - INFO - 💽 Dung lượng đĩa: 12.3GB
+2025-06-25 13:08:37,284 - INFO - ✅ Đã tạo tất cả thư mục cần thiết
+2025-06-25 13:08:37,336 - INFO - 💾 RAM khả dụng: 9.6GB
+2025-06-25 13:08:37,337 - INFO - 💽 Dung lượng đĩa: 12.3GB
+2025-06-25 13:08:51,777 - INFO - 
+============================================================
+2025-06-25 13:08:51,777 - INFO - 🚀 BẮT ĐẦU TRAINING YOLO PHONE DETECTION
+2025-06-25 13:08:51,777 - INFO - ============================================================
+2025-06-25 13:08:51,777 - INFO - ✅ Đã reset trạng thái training
+2025-06-25 13:08:51,777 - WARNING - ⚠️ VRAM thấp, giảm batch_size=16, img_size=416
+2025-06-25 13:08:51,781 - INFO - 
+📋 Đang tạo file cấu hình dataset...
+2025-06-25 13:08:51,783 - INFO - ✅ Đã lưu cấu hình dataset: data\dataset.yaml
+2025-06-25 13:08:51,783 - INFO - 
+🔍 Đang kiểm tra cấu trúc dữ liệu...
+2025-06-25 13:08:51,783 - INFO - ==================================================
+2025-06-25 13:08:51,784 - INFO - 🔍 Đang kiểm tra cấu trúc Dataset
+2025-06-25 13:08:51,784 - INFO - ==================================================
+2025-06-25 13:08:51,867 - INFO - ✅ train/images: 4767 files
+2025-06-25 13:08:51,950 - INFO - ✅ train/labels: 4767 files
+2025-06-25 13:08:51,974 - INFO - ✅ val/images: 1193 files
+2025-06-25 13:08:51,996 - INFO - ✅ val/labels: 1193 files
+2025-06-25 13:08:51,997 - INFO - 
+📊 Kiểm tra tính nhất quán dữ liệu:
+2025-06-25 13:08:51,997 - INFO - Train - Images: 4767, Labels: 4767 ✅
+2025-06-25 13:08:51,997 - INFO - Val - Images: 1193, Labels: 1193 ✅
+2025-06-25 13:08:52,020 - INFO - 
+==================================================
+2025-06-25 13:08:52,020 - INFO - 📊 Phân tích Dataset
+2025-06-25 13:08:52,020 - INFO - ==================================================
+2025-06-25 13:08:54,376 - INFO - 📋 Training:
+2025-06-25 13:08:54,377 - INFO -   • Không dùng điện thoại: 2294 objects
+2025-06-25 13:08:54,377 - INFO -   • Đang dùng điện thoại: 2473 objects
+2025-06-25 13:08:54,377 - INFO -   • Tổng objects: 4767
+2025-06-25 13:08:54,994 - INFO - 📋 Validation:
+2025-06-25 13:08:54,994 - INFO -   • Không dùng điện thoại: 574 objects
+2025-06-25 13:08:54,995 - INFO -   • Đang dùng điện thoại: 619 objects
+2025-06-25 13:08:54,995 - INFO -   • Tổng objects: 1193
+2025-06-25 13:08:54,995 - INFO - 📊 Phân bố Training: Không dùng 48.1%, Đang dùng 51.9%
+2025-06-25 13:08:54,995 - INFO - 📊 Phân bố Validation: Không dùng 48.1%, Đang dùng 51.9%
+2025-06-25 13:08:54,995 - INFO - ✅ Pretrained model đã tồn tại
+2025-06-25 13:08:54,996 - INFO - 
+==================================================
+2025-06-25 13:08:54,996 - INFO - 🤖 Khởi tạo Model
+2025-06-25 13:08:54,996 - INFO - ==================================================
+2025-06-25 13:08:54,996 - INFO - 📁 Loading YOLOv8n model: yolov8n.pt
+2025-06-25 13:08:54,996 - INFO - 🎮 Training device: cuda
+2025-06-25 13:08:55,127 - INFO - 
+==================================================
+2025-06-25 13:08:55,127 - INFO - ⚙️ Cấu hình Training
+2025-06-25 13:08:55,127 - INFO - ==================================================
+2025-06-25 13:08:55,127 - INFO -   📌 epochs: 100
+2025-06-25 13:08:55,127 - INFO -   📌 imgsz: 416
+2025-06-25 13:08:55,127 - INFO -   📌 batch: 16
+2025-06-25 13:08:55,127 - INFO -   📌 device: cuda
+2025-06-25 13:08:55,127 - INFO -   📌 optimizer: AdamW
+2025-06-25 13:08:55,127 - INFO -   📌 lr0: 0.01
+2025-06-25 13:08:55,127 - INFO -   📌 patience: 50
+2025-06-25 13:08:55,127 - INFO -   📌 workers: 8
+2025-06-25 13:08:55,127 - INFO -   📌 cache: False
+2025-06-25 13:08:55,127 - INFO - 
+🎯 BẮT ĐẦU TRAINING...
+2025-06-25 13:08:55,127 - INFO - ==================================================
+2025-06-25 13:10:04,653 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,655 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,667 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,667 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,668 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,669 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,669 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,670 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,670 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,671 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,672 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,673 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,673 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,673 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,677 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,677 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,690 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,691 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,707 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,707 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,721 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,722 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:04,730 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:04,730 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,084 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,085 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,085 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,085 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,118 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,119 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,190 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,190 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,191 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,191 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,191 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,192 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,192 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,192 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,193 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,193 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,193 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,194 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,194 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,194 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,198 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,198 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,205 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,205 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,207 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,207 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,211 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,211 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,223 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,223 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,227 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,227 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,233 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,233 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,242 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,243 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,277 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,277 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,278 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,278 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,279 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,279 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,279 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,280 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,280 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,281 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,281 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,281 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,285 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,285 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,293 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,294 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,294 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,295 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,295 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,296 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,296 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,297 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,297 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,297 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,301 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,301 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,314 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,314 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,315 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,315 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,316 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,316 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,319 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,319 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,321 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,322 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,322 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,322 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,323 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,324 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,324 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,325 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,326 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,326 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,329 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,329 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,333 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,333 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,334 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,334 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,335 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,335 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,338 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,338 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,344 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,345 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,346 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,346 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,347 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,347 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,351 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,351 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,356 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,357 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,358 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,358 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,359 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,359 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,361 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,362 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,421 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,421 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,422 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,422 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,422 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,422 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,423 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,423 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,423 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,424 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,424 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,424 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,425 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,425 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,426 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,426 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,427 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,427 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,428 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,429 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,430 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,430 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,431 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,431 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,432 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,432 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,435 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,435 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,435 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,436 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,444 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,444 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,444 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,445 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,445 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,446 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,446 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,447 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,447 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,447 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,447 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,449 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,450 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,451 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,453 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,454 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,454 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,454 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,466 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,466 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,467 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,467 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,468 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,468 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,469 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,469 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,472 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,472 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,472 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,473 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,474 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,474 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,476 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,476 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,477 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,477 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,478 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,478 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,479 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,479 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,482 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,482 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,482 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,483 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,486 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,486 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,487 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,487 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,488 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,488 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,490 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,490 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,495 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,496 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,496 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,497 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,497 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,499 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,499 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,500 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,502 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,502 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,507 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,507 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,508 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,508 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,509 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,509 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,510 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,511 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,585 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,586 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,587 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,587 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,587 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,587 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,594 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,595 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,595 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,595 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,596 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,596 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,596 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,596 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,597 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,597 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,598 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,598 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,598 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,598 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,600 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,600 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,607 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,607 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,608 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,608 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,609 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,609 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,610 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,610 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,610 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,610 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,611 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,611 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,613 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,613 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,620 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,621 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,628 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,628 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,628 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,629 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,630 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,631 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,637 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,638 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,723 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,723 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,723 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,723 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,726 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,728 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,728 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,729 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,732 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,732 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,733 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,734 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,735 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,735 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,737 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,737 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,742 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,742 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,772 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,772 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,773 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,774 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,775 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,775 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,776 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,777 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,778 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,779 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,780 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,780 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,785 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,786 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,788 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,789 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,790 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,790 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,791 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,792 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,793 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,794 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,795 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,795 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,797 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,797 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,802 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,803 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,811 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,811 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,813 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,813 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,815 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,815 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,816 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,816 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,818 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,818 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,821 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,821 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,826 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,826 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,827 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,828 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,829 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,830 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,832 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,832 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,834 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,834 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,837 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,838 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,861 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,862 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,862 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,862 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,863 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,863 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,868 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,868 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,869 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,869 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,870 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,871 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,872 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,872 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,873 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,874 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,875 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,875 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,876 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,876 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,878 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,878 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,883 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,883 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,885 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,885 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,886 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,886 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,887 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,887 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,888 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,888 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,889 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,889 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,892 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,893 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,898 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,898 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,902 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,902 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,904 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,904 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,907 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,908 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,911 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,912 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,937 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,937 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,939 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,939 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,944 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,948 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,950 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,950 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,952 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,952 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,953 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,953 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,956 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,956 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,958 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,958 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:05,967 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:05,967 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,002 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,002 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,003 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,003 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,005 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,005 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,006 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,006 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,007 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,007 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,008 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,009 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,012 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,012 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,014 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,015 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,015 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,016 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,017 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,017 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,018 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,018 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,023 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,023 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,024 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,024 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,027 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,028 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,032 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,032 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,034 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,034 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,036 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,037 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,038 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,039 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,040 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,040 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,042 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,042 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,044 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,045 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,046 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,046 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,047 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,047 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,049 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,049 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,050 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,051 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 13:10:06,055 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 13:10:06,055 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,025 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,025 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,026 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,026 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,026 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,027 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,027 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,028 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,028 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,028 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,029 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,029 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,029 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,029 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,031 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,032 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,040 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,041 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,048 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,050 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,050 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,050 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,053 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,054 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,054 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,054 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,056 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,056 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,091 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,092 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,092 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,092 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,093 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,094 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,094 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,094 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,095 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,095 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,096 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,096 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,098 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,098 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,100 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,100 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,101 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,101 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,101 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,101 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,102 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,103 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,103 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,103 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,104 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,104 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,107 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,107 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,109 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,110 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,116 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,116 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,117 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,117 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,119 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,119 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,190 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,191 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,191 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,191 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,192 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,192 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,193 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,193 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,193 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,193 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,194 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,194 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,194 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,194 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,196 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,196 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,204 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,204 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,208 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,208 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,209 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,209 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,212 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,213 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,213 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,214 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,214 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,214 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,251 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,251 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,252 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,253 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,253 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,253 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,254 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,254 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,255 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,255 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,256 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,256 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,259 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,259 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,261 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,261 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,262 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,262 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,263 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,263 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,263 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,263 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,264 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,264 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,265 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,266 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,268 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,268 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,273 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,273 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,276 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,277 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,278 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,278 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,279 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,279 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,358 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,359 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,359 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,359 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,360 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,360 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,360 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,361 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,361 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,361 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,362 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,362 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,362 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,362 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,365 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,366 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,398 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,399 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,421 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,421 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,421 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,422 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,427 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,429 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,430 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,433 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,436 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,437 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,539 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,540 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,540 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,541 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,541 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,541 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,542 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,542 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,543 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,543 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,544 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,544 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,546 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,546 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,549 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,549 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,550 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,550 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,550 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,551 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,551 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,551 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,552 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,552 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,553 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,553 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,555 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,556 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,558 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,558 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,562 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,562 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,564 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,564 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,565 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,565 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,633 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,633 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,634 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,634 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,634 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,635 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,635 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,635 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,635 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,635 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,636 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,636 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,636 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,637 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,638 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,638 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,644 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,645 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,648 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,649 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,649 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,649 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,652 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,652 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,653 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,653 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,654 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,654 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,688 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,689 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,689 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,690 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,690 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,691 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,691 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,692 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,692 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,693 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,693 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,694 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,696 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,697 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,699 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,699 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,699 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,699 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,700 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,700 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,701 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,701 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,702 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,702 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,703 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,703 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,706 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,706 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,709 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,709 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,714 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,714 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,716 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,716 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,717 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,719 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,823 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,825 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,825 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,826 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,826 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,826 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,827 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,827 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,831 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,833 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,834 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,834 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,835 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,835 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,907 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,908 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,909 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,909 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,911 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,911 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,913 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,913 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,913 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,913 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,915 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,916 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,917 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,917 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,918 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,918 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,920 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,921 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,921 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,922 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,922 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,922 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,922 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,923 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,923 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,923 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,924 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,925 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,926 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,926 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,926 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,927 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,927 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,927 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,928 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,928 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,934 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,935 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,935 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,935 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,936 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,936 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,936 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,936 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,937 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,939 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,939 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,939 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,940 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,940 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,941 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,941 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,942 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,942 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,943 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,943 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,944 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,944 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,945 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,945 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:16,946 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:16,946 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,068 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,069 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,069 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,069 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,069 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,070 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,070 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,071 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,072 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,073 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,073 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,073 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,074 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,074 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,148 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,148 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,150 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,150 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,152 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,153 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,155 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,155 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,155 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,156 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,158 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,158 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,161 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,162 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,162 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,163 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,164 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,164 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,165 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,166 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,168 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,168 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,168 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,169 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,169 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,169 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,170 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,170 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,170 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,170 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,171 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,171 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,171 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,171 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,172 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,172 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,172 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,172 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,173 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,173 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,182 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,182 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,183 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,183 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,183 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,184 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,184 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,184 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,184 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,184 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,184 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,184 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,184 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,186 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,186 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,186 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,187 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,187 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,187 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,188 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,189 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,189 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,190 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,190 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,191 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,191 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,191 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,192 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,192 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,193 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,361 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,361 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,362 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,362 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,362 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,362 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,363 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,363 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,369 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,370 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,370 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,370 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,371 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,371 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,372 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,372 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,372 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,372 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,380 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,382 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,383 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,383 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,398 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,398 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,399 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,399 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,400 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,400 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,400 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,401 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,401 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,401 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,407 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,407 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,410 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,410 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,411 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,411 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,423 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,424 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,424 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,425 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,425 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,426 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,427 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,427 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,431 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,431 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,475 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,477 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,524 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,525 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,528 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,528 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,547 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,547 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,603 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,603 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,623 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,623 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,624 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,624 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,624 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,624 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,625 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,625 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,629 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,629 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,646 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,646 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,647 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,647 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,652 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,653 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,671 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,671 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,687 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,688 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,894 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,894 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,895 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,896 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,896 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,897 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,900 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,900 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,901 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,901 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,902 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,902 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,903 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,903 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,904 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,904 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,908 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,908 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,913 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,913 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,915 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,915 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,916 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,916 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,920 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,920 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,921 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,921 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,922 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,922 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,923 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,923 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,924 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,924 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,928 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,929 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,933 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,933 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,934 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,934 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,940 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,940 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,941 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,942 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,942 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,942 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,946 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,946 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,947 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,948 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,948 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,948 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,949 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,950 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,954 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,955 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,959 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,959 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,960 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,960 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,961 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,962 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,965 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,965 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,966 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,966 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,967 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,968 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,968 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,969 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,972 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,972 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,977 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,977 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,978 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,979 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,979 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,980 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,983 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,983 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,983 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,984 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,985 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,985 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,985 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,985 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,987 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,988 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,991 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,992 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,997 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,997 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,998 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,999 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:17,999 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:17,999 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,003 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,003 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,004 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,004 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,005 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,005 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,005 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,005 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,009 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,010 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,015 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,015 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,016 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,016 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,017 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,017 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,019 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,020 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,020 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,021 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,022 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,022 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,023 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,023 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,024 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,024 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,027 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,027 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,032 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,033 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,034 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,034 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,034 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,035 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,038 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,038 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,039 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,040 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,040 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,041 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,042 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,042 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,043 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,043 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,044 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,044 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,048 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,048 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,053 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,053 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,054 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,055 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,055 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,056 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,059 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,059 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,060 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,061 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,061 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,061 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,062 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,062 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,063 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,063 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,064 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,064 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,068 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,068 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,074 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,074 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,075 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,075 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,076 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,076 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,079 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,080 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,081 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,081 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,082 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,083 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,083 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,084 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,085 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,085 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,086 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,086 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,086 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,086 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,090 - WARNING - findfont: Font family 'Arial Unicode MS' not found.
+2025-06-25 14:12:18,090 - WARNING - findfont: Font family 'SimHei' not found.
+2025-06-25 14:12:18,315 - INFO - 
+🎉 Training hoàn thành thành công!
+2025-06-25 14:12:18,316 - INFO - ⏱️ Thời gian training: 63.4 phút
+2025-06-25 14:12:18,316 - INFO - 
+📊 Đang tạo biểu đồ và tổ chức kết quả...
+2025-06-25 14:12:18,316 - INFO - 
+==================================================
+2025-06-25 14:12:18,316 - INFO - 📊 Tạo biểu đồ trực quan
+2025-06-25 14:12:18,316 - INFO - ==================================================
+2025-06-25 14:12:18,317 - WARNING - ⚠️ Không tìm thấy file results.csv
+2025-06-25 14:12:18,317 - INFO - 
+📋 Tạo báo cáo tổng kết...
+2025-06-25 14:12:18,318 - INFO - ✅ Đã tạo báo cáo: model\phone_detection5\training_report.md
+2025-06-25 14:12:18,318 - INFO - ✅ Đã hoàn thành tất cả tác vụ sau training
+2025-06-25 14:12:18,414 - INFO - 🧹 Đã dọn dẹp tài nguyên
+2025-06-25 14:13:35,661 - INFO - ✅ Đã tạo tất cả thư mục cần thiết
+2025-06-25 14:13:35,721 - INFO - 💾 RAM khả dụng: 11.9GB
+2025-06-25 14:13:35,722 - INFO - 💽 Dung lượng đĩa: 12.1GB
+2025-06-25 14:15:29,491 - INFO - ✅ Đã tạo tất cả thư mục cần thiết
+2025-06-25 14:15:29,548 - INFO - 💾 RAM khả dụng: 11.6GB
+2025-06-25 14:15:29,548 - INFO - 💽 Dung lượng đĩa: 12.1GB

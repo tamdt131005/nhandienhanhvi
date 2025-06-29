@@ -1,0 +1,7 @@
+names:
+- alert
+- drowsy
+nc: 2
+test: ./yolo_dataset/images/test
+train: ./yolo_dataset/images/train
+val: ./yolo_dataset/images/val

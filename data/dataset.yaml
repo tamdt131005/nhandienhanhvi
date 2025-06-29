@@ -1,0 +1,8 @@
+names:
+- no_phone
+- using_phone
+nc: 2
+path: ./data
+test: ''
+train: train/images
+val: val/images
